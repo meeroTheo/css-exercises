@@ -1,6 +1,10 @@
 .oddElement{
     background-color: #ffcdee;
-    font-family: 'Verdana', DejaVu Sans, sans-serif;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.coolerElement{
+    font-size: 24px;
 }
 
 #element2{
