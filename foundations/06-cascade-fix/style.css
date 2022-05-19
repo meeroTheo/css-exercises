@@ -11,15 +11,6 @@
   font-size: 14px;
 }
 
-
-
-#confirm-button {
-  background: green;
-  color: white;
-  font-weight: bold;
-  border-color: white;
-} 
-
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
@@ -27,12 +18,18 @@
   border-color: white;
 }
 
+#confirm-button {
+  background: green;
+  color: white;
+  font-weight: bold;
+  
+} 
+.text {
+  color: green;
+  font-size: 22px;
+}
 .text .child {
   color: red;
   font-size: 14px;
 }
 
-  .text {
-  color: green;
-  font-size: 22px;
-}
