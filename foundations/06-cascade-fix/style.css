@@ -6,6 +6,7 @@
 .para {
   font-size: 22px;
 }
+
 .small-para {
   font-size: 14px;
 }
@@ -16,20 +17,22 @@
   background: green;
   color: white;
   font-weight: bold;
+  border-color: white;
 } 
 
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
+  border-color: white;
 }
 
-.child {
+.text .child {
   color: red;
   font-size: 14px;
 }
 
-div.text {
+  .text {
   color: green;
   font-size: 22px;
 }
