@@ -80,3 +80,21 @@ button.cancel {
   /* This prevents the icon from shrinking */
   flex-shrink: 0;
 }
+
+.header {
+  display: flex;
+  /* align the text and the close button */
+  align-items: center;
+  /*make text bold */
+  font-weight: 700;
+  font-size: 18px;
+  /* Justify the text to the left */
+  justify-content: space-between;
+  /* Adds space between text and header */
+  margin-bottom: 8px;
+
+}
+
+.text {
+  margin-bottom: 16px;
+}
