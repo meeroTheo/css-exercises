@@ -21,7 +21,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, .2);
-  padding: 10px;
+
 }
 
 .icon {
@@ -65,4 +65,13 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.modal {
+  display: flex;
+  /* Creates a gap between the icon and the text */
+  gap: 16px;
+  /* Creates padding around the modal */
+  padding: 16px;
+
 }
