@@ -25,3 +25,67 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/*adds flexbox to the body making it directed by column*/
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Remember, divs can be edited using the class selector. */
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  /*adds space betwen the about,store and logo and the the profile,settings*/
+  padding: 16px;
+
+}
+
+.footer {
+  background: #eee;
+}
+
+/*a is the tagged list items*/
+a {
+  text-decoration: none;
+  color: #666
+}
+
+button {
+  padding: 8px 16px;
+
+}
+
+.content {
+  /*
+What is flex 1:
+flex-grow : 1;    ➜ The div will grow in same proportion as the window-size       
+flex-shrink : 1;  ➜ The div will shrink in same proportion as the window-size 
+flex-basis : 0;   ➜ The div does not have a starting value as such and will 
+                     take up screen as per the screen size available for
+                     e.g:- if 3 divs are in the wrapper then each div will take 33%.
+                     */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*Stacks the logo on top, and the search bar on the bottom and the buttons below that*/
+  flex-direction: column;
+
+}
+
+
+
+/*edit the unordered list to be flexed and directed by row*/
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /*adds space between the list items*/
+  gap: 16px;
+
+}
